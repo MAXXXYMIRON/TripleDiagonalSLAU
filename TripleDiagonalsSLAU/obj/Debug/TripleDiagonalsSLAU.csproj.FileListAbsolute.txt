@@ -1,0 +1,7 @@
+C:\Users\MAXXXYMIRON\Desktop\.ПАРЫ\ВЫЧ МАТ\ПРАКТИКА\TripleDiagonalsSLAU\TripleDiagonalsSLAU\bin\Debug\TripleDiagonalsSLAU.exe.config
+C:\Users\MAXXXYMIRON\Desktop\.ПАРЫ\ВЫЧ МАТ\ПРАКТИКА\TripleDiagonalsSLAU\TripleDiagonalsSLAU\bin\Debug\TripleDiagonalsSLAU.exe
+C:\Users\MAXXXYMIRON\Desktop\.ПАРЫ\ВЫЧ МАТ\ПРАКТИКА\TripleDiagonalsSLAU\TripleDiagonalsSLAU\bin\Debug\TripleDiagonalsSLAU.pdb
+C:\Users\MAXXXYMIRON\Desktop\.ПАРЫ\ВЫЧ МАТ\ПРАКТИКА\TripleDiagonalsSLAU\TripleDiagonalsSLAU\obj\Debug\TripleDiagonalsSLAU.csprojAssemblyReference.cache
+C:\Users\MAXXXYMIRON\Desktop\.ПАРЫ\ВЫЧ МАТ\ПРАКТИКА\TripleDiagonalsSLAU\TripleDiagonalsSLAU\obj\Debug\TripleDiagonalsSLAU.csproj.CoreCompileInputs.cache
+C:\Users\MAXXXYMIRON\Desktop\.ПАРЫ\ВЫЧ МАТ\ПРАКТИКА\TripleDiagonalsSLAU\TripleDiagonalsSLAU\obj\Debug\TripleDiagonalsSLAU.exe
+C:\Users\MAXXXYMIRON\Desktop\.ПАРЫ\ВЫЧ МАТ\ПРАКТИКА\TripleDiagonalsSLAU\TripleDiagonalsSLAU\obj\Debug\TripleDiagonalsSLAU.pdb
