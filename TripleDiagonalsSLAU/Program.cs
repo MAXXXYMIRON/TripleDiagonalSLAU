@@ -15,45 +15,33 @@ namespace TripleDiagonalsSLAU
             //создание слау
             float[][] SLAU = new float[6][];
             SLAU[0] = new float[2];
-            SLAU[0][0] = random.Next(10, 99);
-            SLAU[0][1] = random.Next(-99, -10);
-
             SLAU[1] = new float[3];
-            SLAU[1][0] = random.Next(-99, -10);
-            SLAU[1][1] = random.Next(10, 99);
-            SLAU[1][2] = random.Next(-99, -10);
-
             SLAU[2] = new float[3];
-            SLAU[2][0] = random.Next(-99, -10);
-            SLAU[2][1] = random.Next(10, 99);
-            SLAU[2][2] = random.Next(-99, -10);
-
             SLAU[3] = new float[3];
-            SLAU[3][0] = random.Next(-99, -10);
-            SLAU[3][1] = random.Next(10, 99);
-            SLAU[3][2] = random.Next(-99, -10);
-
             SLAU[4] = new float[3];
-            SLAU[4][0] = random.Next(-99, -10);
-            SLAU[4][1] = random.Next(10, 99);
-            SLAU[4][2] = random.Next(-99, -10);
-
             SLAU[5] = new float[2];
-            SLAU[5][0] = random.Next(-99, -10);
-            SLAU[5][1] = random.Next(10, 99);
 
             //Результаты уравнений
             float[] f = new float[6];
-            for (int i = 0; i < f.Length; i++) f[i] = random.Next(-99, 99);
+
+            for (int i = 0; i < SLAU.Length; i++)
+            {
+                for (int j = 0; j < SLAU[i].Length; j++)
+                {
+                    SLAU[i][j] = random.Next(-99, 99);
+                }
+                f[i] = random.Next(-99, 99);
+            }
+
 
             //Вывод СЛАУ
             for (int i = 0; i < SLAU.Length; i++)
             {
                 for (int space = 0; space < i - 1; space++) Console.Write("    ");
 
-                for (int j = 0; j < SLAU[i].Length; j++) Console.Write($" {SLAU[i][j]}");
+                for (int j = 0; j < SLAU[i].Length; j++) Console.Write("{0,4}", SLAU[i][j]);
 
-                Console.WriteLine($"  =  {f[i]}");
+                Console.WriteLine("  =  {0,4}", f[i]);
             }
 
 
@@ -75,6 +63,7 @@ namespace TripleDiagonalsSLAU
             }
 
 
+
             //Поиск х
             float[] x = new float[6];
             x[5] = 
@@ -84,6 +73,7 @@ namespace TripleDiagonalsSLAU
             {
                 x[i] = alpha[i] * x[i + 1] + beta[i];
             }
+
 
             //Вывод
             for (int i = 0; i < x.Length; i++)
